@@ -8,8 +8,8 @@ int main(void){
   SetTargetFPS(60);
   while (!WindowShouldClose()){
     BeginDrawing();
-      ClearBackground(RAYWHITE);
-      DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+      ClearBackground(BLACK);
+      DrawText("Congrats! You created your first window!", 190, 200, 20, ORANGE);
     EndDrawing();
   }
   CloseWindow();
